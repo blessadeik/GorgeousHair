@@ -5,19 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GorgeousHair: Schedule Appointment</title>
+
+    {# CSS Styling #}
+    <link rel="stylesheet" href="style.css">
+
+    {# Google Font #}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500&display=swap" rel="stylesheet">
+
 </head>
 <body>
+
+    {# Entire Codebase Content #}
     <div class="container">
         {# Pre Header Section #}
         <div class="pre_header">
             <div class="mail">
-                <div class="icon"></div>
-                <div class="mail_support"></div>
+                <div class="icon"><object data="images/envelope-alt.svg" width="24" height="24"></object></div>
+                <div class="mail_support">support@gorgeoushair.com</div>
             </div>
             <div class="social_media">
-                <div class="icon"></div>
-                <div class="icon"></div>
-                <div class="icon"></div>
+                <div class="icon"><object data="images/Facebook/facebook.svg" type="" height="32px" width="32px"></object></div>
+                <div class="icon"><object data="images/twitter/twitter.svg" type="" height="32px" width=""></object></div>
+                <div class="icon"><object data="images/instagram/instagram.svg" type="" height="32px" width="32px"></object></div>
             </div>
         </div>
 
@@ -25,8 +36,8 @@
         <div class="header">
             {# Navigation #}
             <nav>
-                <img src="" alt="GorgeousHair Logo">
-                <ul>
+                <img src="images/GorgeousHair.png" alt="GorgeousHair Logo">
+                <ul class="nav_bar_items">
                     <li>Home</li>
                     <li>About Us</li>
                     <li>Schedule Appointment</li>
@@ -36,8 +47,8 @@
 
             {# First section #}
             <div class="first_section">
-                    <p class="first_section_title"></p>
-                    <p class="arrow_Key"></p>
+                    <p class="first_section_title">Schedule Hair Appointment</p>
+                    <p class="arrow_Key"><object data="images/arrow-down.svg" type="" width="70" height="70"></object></p>
             </div>
         </div>
 
@@ -45,23 +56,29 @@
 
             <div class="reg_form">
                 <form action="submit" method="post">
-                    <label for="name"></label>
-                    <input type="text" placeholder="name" name="name">
+                    <label for="name">Name:</label>
+                        <input type="text" placeholder="name" name="name">
 
-                    <label for="phone"></label>
-                    <input type="text" placeholder="Phone Number" name="phone">
+                    <label for="phone">Phone Number:</label>
+                        <input type="text" placeholder="Phone Number" name="phone">
 
-                    <label for="email"></label>
-                    <input type="email" placeholder="Email Address" name="email">
+                    <label for="email">Email Address:</label>
+                        <input type="email" placeholder="Email Address" name="email">
 
-                    <label for="Hair Service"></label>
-                    
+                    <label for="Hair Service">Hair Service:</label>
+                        <select name="Hair Service" id="">
+                            <option value="Select Option" selected> -- Select Option ---</option>
+                            <option value="Hair Styling"> Hair Styling</option>
+                            <option value="Hair Care"> Hair Care</option>
+                            <option value="Hair Detangling"> Hair Detangling</option>
+                            <option value="Hair Consultation"> Hair Consultation</option>
+                        </select>
 
-                    <label for="date"></label>
-                    <input type="date" placeholder="Choose Date">
+                    <label for="date">Date:</label>
+                        <input type="date" placeholder="Choose Date" name="date" id="date" required>
 
-                    <label for="time"></label>
-                    <input type="time" placeholder="Select Time">
+                    <label for="time">Time:</label>
+                        <input type="time" placeholder="Select Time" name="time" id="time" required>
 
                     <button class="submit">Schedule Appointment</button>
                 </form>
@@ -69,12 +86,13 @@
 
              {# Social media section #}
         <div class="social_section">
-            <div class="logo"></div>
+            <div class="logo"><img src="images/GorgeousHair.png" alt=""></div>
             <div class="social">
-                <div class="social_title"></div>
-                <div class="social_icon"></div>
-                <div class="social_icon"></div>
-                <div class="social_icon"></div>
+
+                <div class="social_title">Follow us on Social Media</div>
+                <div class="social_icon"><object data="images/twitter2/twitter.svg" type="" width="30" height="30"></object></div>
+                <div class="social_icon"><object data="images/instagram2/instagram.svg" type=""width="30" height="30" ></object></div>
+                <div class="social_icon"><object data="images/facebook2/facebook.svg" type="" width="30" height="30"></object></div>
             </div>
         </div>
 
@@ -82,38 +100,38 @@
         <div class="pre_footer">
             <div class="pre_foot_cat">
                 <div class="pre_foot_sect">
-                    <p class="pre_foot_sect_title"></p>
+                    <p class="pre_foot_sect_title">Who We Are</p>
                     <ul>
-                        <li></li>
+                        <li>About Us</li>
                     </ul>
                 </div>
                 <div class="pre_foot_sect">
-                    <p class="pre_foot_sect_title"></p>
+                    <p class="pre_foot_sect_title">Our Services</p>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>Hairstyling</li>
+                        <li>Hair Care</li>
+                        <li>Hair Detangling</li>
+                        <li>Hair Consultation</li>
                     </ul>
                 </div>
                 <div class="pre_foot_sect">
-                    <p class="pre_foot_sect_title"></p>
+                    <p class="pre_foot_sect_title">Contact Us</p>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>Schedule Appointment</li>
+                        <li> <object data="images/phone.svg" type="" width="16px" height="16px"></object> +234-890-987-99</li>
+                        <li> <object data="images/envelope-alt.svg" type="" width="16px" height="16px"></object> support@gorgeoushair.com</li>
                     </ul>
                 </div>
             </div>
                 <div class="foot_sect_span">
-                    <p></p>
-                    <p></p>
+                    <p>Privacy Policy</p>
+                    <p>Terms & Conditions</p>
                 </div>
         </div>
 
         {# Footer #}
         <div class="footer">
-            <p class="foot_copy"></p>
+            <p class="foot_copy">Copyright &copy; 2022 GirlCode Team 5. All Right Reserved</p>
         </div>
 
 </body>

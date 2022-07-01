@@ -1,6 +1,332 @@
 /* CSS for GorgeousHair */
 @import url('https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 *{
     font-family: 'Rosario', sans-serif;
 }
+
+
+/* Entire Css */
+.container {
+    margin: 0;
+    position: relative;
+    background: #ffffff;
+}
+
+.pre_header {
+    position: absolute;
+    width: 100%;
+    height:50px;
+    left: 0px;
+    top: 0px;
+    background: #f5f5f5;
+}
+
+.mail{
+    
+}
+
+.icon{
+    position: absolute;
+    width:24px;
+    height:24px;
+    left: calc(50% -24px/2 - 688px);
+    top: calc(50% - 24px/2 - 1511px);
+}
+
+.mail_support{
+    position:absolute;
+    top: 16px;
+    left: 64px;
+    font-style:normal;
+    font-size:12px;
+    font-weight: 400;
+    line-height: 14.54px;
+    color: #000000;
+}
+
+.social_media{
+    position:absolute;
+    left:1360px;
+    top: 9px;
+}
+.social_icon{
+    display: flex;
+    padding-left:36px ;
+}
+
+/* Header */
+
+.header{
+    position: absolute;
+    height: 600px;
+    left: 0px;
+    top: 50px;
+}
+
+nav{
+    position:relative;
+    width: 100%;
+    height: 80px;
+    background:#161616;
+    opacity: 0.4;
+}
+
+nav img{
+    left: 42px;
+    top: 16px;
+    height: 49px;
+    width: 240px;
+}
+.nav_bar_items{
+
+}
+
+nav ul{
+    text-decoration: none;
+    display: flex;
+    left: 1070px;
+    top: 81px;
+}
+
+nav li{
+    font-style:normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #f5f5f5;
+}
+
+nav li:active{
+    color: #fdb1d5;
+    text-decoration: underline;
+}
+
+.nav_bar_items li{
+
+}
+
+/* Slider */
+
+.slider{
+
+}
+
+.slider_content_1{
+
+}
+
+.slider_content_2{
+
+}
+
+.slider_content_3{
+
+}
+
+.slider_content_4{
+
+}
+
+.slider_title{
+
+}
+
+.slider_content{
+
+}
+    /* button */
+.visit_salon{
+
+}
+
+/* Our Service Section */
+#services{
+
+}
+
+.service_title{
+
+}
+
+.service_icons{
+
+}
+
+.servicon{
+
+}
+
+.servicon_label{
+
+}
+
+/* Welcome Section */
+#about_us{
+
+}
+
+.about{
+
+}
+
+.about_image{
+
+}
+
+.about img{
+
+}
+
+    /* button */
+.book_now{
+
+}
+
+.welcome{
+
+}
+
+.welcome_title{
+
+}
+
+.welcome_main{
+
+}
+
+/* Book Appointment Section */
+
+.appointment{
+
+}
+.appointment_title{
+
+}
+
+.appointment_cards{
+
+}
+
+.card{
+
+}
+
+.svg_icon{
+
+}
+
+.appointment_name{
+
+}
+
+.appoint_details{
+
+}
+
+.appoinment_link{
+
+}
+
+/* Subscribe Section */
+
+.subscribe{
+
+}
+
+.sub_main{
+
+}
+
+.sub{
+    font-family: 'Architects Daughter', cursive;
+}
+.input{
+
+}
+
+.subscribe_btn{
+
+}
+
+/* Social Media Section */
+
+.social_section{
+
+}
+
+.logo{
+
+}
+
+.social{
+
+}
+
+.social_title{
+
+}
+
+.social_icon{
+
+}
+
+/* Pre-Footer */
+.pre_footer{
+
+}
+
+.pre_foot_cat{
+
+}
+
+.pre_foot_section{
+
+}
+
+.pre_foot_sect_title{
+
+}
+
+.pre_foot_sect li{
+
+}
+
+.foot_sect_span{
+
+}
+
+/* Footer */
+
+.footer{
+
+}
+
+.foot_copy{
+
+}
+
+
+/* SCHEDULE PAGE */
+    /* Registration Form */
+
+.reg_form{
+
+}
+
+label{
+
+}
+
+.reg_form input{
+
+}
+
+input::placeholder{
+
+}
+    /* button */
+.submit{
+
+}
+
